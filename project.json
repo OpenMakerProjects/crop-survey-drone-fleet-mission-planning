@@ -1,0 +1,21 @@
+{
+  "id": 808,
+  "title": "Crop Survey Drone Fleet Mission Planning",
+  "repository_slug": "crop-survey-drone-fleet-mission-planning",
+  "category": "Drones",
+  "platform": "Arduino Nano 33 BLE",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "Telemetry radio",
+  "components": [
+    "barometer",
+    "payload servo",
+    "telemetry radio"
+  ],
+  "scope": "Build a drones prototype that uses barometer, payload servo, telemetry radio to divide survey tasks across multiple aircraft. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Fleet Mission Planning demonstration with repeatable test steps",
+  "mode": "interactive_monitor",
+  "entrypoint": "firmware/crop-survey-drone-fleet-mission-planning/crop-survey-drone-fleet-mission-planning.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
